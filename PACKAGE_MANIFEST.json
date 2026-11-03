@@ -186,13 +186,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5345,
-      "sha256": "b23d2ea35ad5a44eff7c369f10d02bbbf6c8e6e0e332c39941b3ec220b868cb9"
+      "bytes": 5953,
+      "sha256": "1cb151ab043366a669389fc0592c6ed354de43d4870ae14941fb54565fde6fb3"
     },
     {
       "path": "RELEASE_STATUS.json",
-      "bytes": 1055,
-      "sha256": "b30f612c50bb84e0de4ff0f09eb1f508275f25d8ab4c5cc3d35c3cf96917d738"
+      "bytes": 1241,
+      "sha256": "63a34f0772407ba5ec93179126fba0a2297d885d054c4956fba35250652ba625"
     },
     {
       "path": "RESOURCE_CARD.md",
@@ -223,6 +223,16 @@
       "path": "score_profiles.py",
       "bytes": 9595,
       "sha256": "7494c41036e485ca1041b3abd7fad76e5450604156b2da4cb834fa53c5281705"
+    },
+    {
+      "path": "supplementary/FilingRevisionQA_EN_Companion.pdf",
+      "bytes": 277588,
+      "sha256": "c609ce6df8dbd66d6a766ff8cb6c287134c1263e9e444fd6782018afad56872a"
+    },
+    {
+      "path": "supplementary/FilingRevisionQA_ZH_Companion.pdf",
+      "bytes": 367817,
+      "sha256": "db630ee6583c6f58b3c502b0d78540d6c5fc9485222193120b7372cc1a8e2be5"
     },
     {
       "path": "test_component_requests.py",

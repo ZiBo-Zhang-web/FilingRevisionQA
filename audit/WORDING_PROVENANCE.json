@@ -1,0 +1,14 @@
+{
+  "input_path": "reports/handoffs/submission_evidence_audit_20261027/supplement-v1/ALL_WORDING_468.csv",
+  "input_sha256": "fb858fe610245afa5e5542aeca98f8d612bf3c2fab53010b601cb5adfaabeb12",
+  "records": 468,
+  "counts": {
+    "verbatim": 240,
+    "cutoff_applicability": 61,
+    "prefix_replacement": 167
+  },
+  "human_labels_created": false,
+  "new_equivalence_signoffs": 0,
+  "historical_inputs_changed": false,
+  "purpose": "Read-only wording lineage. Alternate use of reviewed wording creates a distinct future task, not scores reported here."
+}

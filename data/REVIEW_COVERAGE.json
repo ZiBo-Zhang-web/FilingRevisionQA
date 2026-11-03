@@ -1,0 +1,49 @@
+{
+  "source": "Existing reviewer records plus direct owner confirmations; no new human labels",
+  "question_pairs": 468,
+  "events": 144,
+  "two_reviewers_rows_present": 468,
+  "reviewer_field_presence": {
+    "A": {
+      "本次结论": 468,
+      "独立答案（原版）": 468,
+      "独立答案（修订版）": 468,
+      "答案单位": 468,
+      "原版证据位置": 468,
+      "修订版证据位置": 468
+    },
+    "B": {
+      "本次结论": 468,
+      "独立答案（原版）": 468,
+      "独立答案（修订版）": 468,
+      "答案单位": 468,
+      "原版证据位置": 468,
+      "修订版证据位置": 468
+    }
+  },
+  "third_question_outcomes": {
+    "确认通过": 464,
+    "修正后通过": 4
+  },
+  "third_event_outcomes": {
+    "确认通过": 120,
+    "修正后通过": 13,
+    "待补材料": 11
+  },
+  "attestation_date": "2026-10-26",
+  "reviewer_B_date_reported_by_owner": "2026-10-18",
+  "reviewer_A_scope_reported_by_owner": "All questions; independent reading of both source versions",
+  "third_review_scope_reported_by_owner": "Fully human-reviewed adjudication",
+  "historical_documentation_limit": "Earlier workbook declarations differed from later owner attestations. Original records remain unchanged. C adjudication saw A/B opinions and is not a third independent blind review.",
+  "technical_source_checks": {
+    "questions": 468,
+    "states": 936,
+    "unique_locators": 3856,
+    "xml_files": 266,
+    "xml_locators": 1555,
+    "xml_states": 860,
+    "html_only_states": 76
+  },
+  "new_AI_diagnostics_are_human_gold": false,
+  "public_release_approval": false
+}

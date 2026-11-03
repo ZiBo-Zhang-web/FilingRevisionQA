@@ -1,6 +1,6 @@
 {
   "version": "v1.0.0",
-  "documentation_packaging_revision": "r3",
+  "documentation_packaging_revision": "r4-supplementary-pdfs",
   "repository_url": "https://github.com/ZiBo-Zhang-web/FilingRevisionQA",
   "doi": null,
   "authors": "AUTHORS.json",
@@ -18,5 +18,9 @@
     "data/manifest.json:release_status": "Retained status at creation of the source snapshot; not current license status.",
     "data/REVIEW_COVERAGE.json:public_release_approval": "Retained earlier preparation status; current scoped permission is in PACKAGE_MANIFEST.json and LICENSE."
   },
-  "scope": "Complete core dataset and new-component scoring interface; historical experiment replay assets and supplementary paper documents are excluded."
+  "scope": "Complete core dataset, new-component scoring interface and bilingual supplementary PDFs; historical experiment replay assets are excluded.",
+  "supplementary_documents": [
+    "supplementary/FilingRevisionQA_EN_Companion.pdf",
+    "supplementary/FilingRevisionQA_ZH_Companion.pdf"
+  ]
 }

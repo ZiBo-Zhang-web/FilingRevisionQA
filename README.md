@@ -53,10 +53,20 @@ archives are separate research artifacts.
 
 ## Scope of this release
 
-This core contains the complete 468-pair dataset and the interface for evaluating
-new components. Historical predictions, training configurations, table-generation
-assets and supplementary paper documents are outside this package. It therefore
-supports new evaluations, rather than a complete replay of every paper result.
+This release contains the complete 468-pair dataset, the interface for evaluating
+new components, and the English and Chinese supplementary paper documents.
+Historical predictions, training configurations and table-generation assets
+remain outside this package. The PDFs document the experiments and review scope;
+they do not replace the raw artifacts required to replay every paper result.
+
+## Supplementary materials
+
+- [English supplementary materials](supplementary/FilingRevisionQA_EN_Companion.pdf)
+- [Chinese supplementary materials](supplementary/FilingRevisionQA_ZH_Companion.pdf)
+
+These are the retained 3 November 2026 PDF versions. Historical preparation and
+availability statements in the PDFs describe their document snapshot; the
+repository files and scoped license notices describe the current package.
 
 The data files preserve the original snapshot. In `data/manifest.json`,
 `release_status` records its internal-preview origin; in `data/REVIEW_COVERAGE.json`,
