@@ -1,0 +1,124 @@
+{
+  "authors": [
+    {
+      "given_names": "ZiBo",
+      "family_names": "Zhang",
+      "name": "ZiBo Zhang",
+      "orcid": "https://orcid.org/0009-0008-9059-0513",
+      "affiliation_ids": [
+        "1"
+      ],
+      "contribution_group": "first"
+    },
+    {
+      "given_names": "Dong",
+      "family_names": "Bo",
+      "name": "Dong Bo",
+      "orcid": "https://orcid.org/0009-0001-0047-5255",
+      "affiliation_ids": [
+        "2"
+      ],
+      "contribution_group": "co-second"
+    },
+    {
+      "given_names": "Sijia",
+      "family_names": "Liu",
+      "name": "Sijia Liu",
+      "orcid": "https://orcid.org/0009-0002-6796-0009",
+      "affiliation_ids": [
+        "3"
+      ],
+      "contribution_group": "co-second"
+    },
+    {
+      "given_names": "Xinhui",
+      "family_names": "Lyu",
+      "name": "Xinhui Lyu",
+      "orcid": "https://orcid.org/0009-0009-6407-6817",
+      "affiliation_ids": [
+        "1"
+      ],
+      "contribution_group": "co-second"
+    },
+    {
+      "given_names": "Xiangzhen",
+      "family_names": "Chen",
+      "name": "Xiangzhen Chen",
+      "orcid": "https://orcid.org/0009-0009-9681-9996",
+      "affiliation_ids": [
+        "1"
+      ],
+      "contribution_group": "co-third"
+    },
+    {
+      "given_names": "Xiaozhou",
+      "family_names": "Bai",
+      "name": "Xiaozhou Bai",
+      "orcid": "https://orcid.org/0009-0001-3259-1808",
+      "affiliation_ids": [
+        "3"
+      ],
+      "contribution_group": "co-third"
+    },
+    {
+      "given_names": "Muxin",
+      "family_names": "Tang",
+      "name": "Muxin Tang",
+      "orcid": "https://orcid.org/0009-0003-4736-9059",
+      "affiliation_ids": [
+        "1"
+      ],
+      "contribution_group": "co-third"
+    },
+    {
+      "given_names": "YaLun",
+      "family_names": "Ma",
+      "name": "YaLun Ma",
+      "orcid": null,
+      "affiliation_ids": [
+        "4"
+      ],
+      "contribution_group": "co-fourth"
+    },
+    {
+      "given_names": "Xiang",
+      "family_names": "Li",
+      "name": "Xiang Li",
+      "orcid": "https://orcid.org/0009-0003-6172-1880",
+      "affiliation_ids": [
+        "5"
+      ],
+      "contribution_group": "co-fourth"
+    },
+    {
+      "given_names": "Yan",
+      "family_names": "Wang",
+      "name": "Yan Wang",
+      "orcid": "https://orcid.org/0000-0001-7758-441X",
+      "affiliation_ids": [
+        "6",
+        "7"
+      ],
+      "contribution_group": "corresponding"
+    }
+  ],
+  "affiliations": {
+    "1": "College of Information and Electrical Engineering, China Agricultural University, Beijing, China",
+    "2": "School of Information, Renmin University of China, China",
+    "3": "College of Artificial Intelligence, Jilin University of Chemical Technology, Jilin, China",
+    "4": "North China University of Science and Technology, Tangshan, Hebei, China",
+    "5": "College of Engineering, China Agricultural University, Beijing, China",
+    "6": "Key Laboratory of Smart Agriculture Systems, Ministry of Education, College of Information and Electrical Engineering, China Agricultural University, Beijing 100083, China",
+    "7": "Key Laboratory of Agricultural Information Acquisition Technology, Ministry of Agriculture and Rural Affairs of China, College of Information and Electrical Engineering, China Agricultural University, Beijing 100083, China"
+  },
+  "corresponding_author": {
+    "name": "Yan Wang",
+    "email": "yanwang@cau.edu.cn"
+  },
+  "maintainer": {
+    "name": "ZiBo Zhang",
+    "email": "2024303090204@cau.edu.cn",
+    "orcid": "https://orcid.org/0009-0008-9059-0513"
+  },
+  "note": "Authorship and within-group contribution statements are author supplied. They do not assign copyright ownership or declare equal contribution across different groups."
+}

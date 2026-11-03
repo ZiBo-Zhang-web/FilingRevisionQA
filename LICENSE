@@ -1,0 +1,18 @@
+# FilingRevisionQA licensing scope
+
+Copyright (c) 2026 FilingRevisionQA contributors, for their respective original contributions.
+
+Project-owned Python software and associated software documentation are licensed
+under MIT; see LICENSES/MIT.txt. Project-owned original question, annotation and
+resource-description contributions are licensed under CC BY 4.0; see
+LICENSES/CC-BY-4.0.txt. This scope notice does not modify either license.
+
+The grants extend only to rights the licensors hold. They do not cover
+issuer-authored expression, third-party materials, underlying financial facts,
+public identifiers, or source XML fragments. No exclusive rights or attribution
+conditions are asserted over facts or other unprotectable elements. See
+RIGHTS_SCOPE.md and THIRD_PARTY_NOTICES.md for the field-level separation.
+
+Credit the creators listed in AUTHORS.json; CITATION.cff provides a citation.
+The contributor label is collective attribution, not an assertion that every
+listed author owns every file or that any institution transferred its rights.

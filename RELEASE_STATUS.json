@@ -1,0 +1,22 @@
+{
+  "version": "v1.0.0",
+  "documentation_packaging_revision": "r3",
+  "repository_url": "https://github.com/ZiBo-Zhang-web/FilingRevisionQA",
+  "doi": null,
+  "authors": "AUTHORS.json",
+  "maintainer": {
+    "name": "ZiBo Zhang",
+    "email": "2024303090204@cau.edu.cn",
+    "orcid": "https://orcid.org/0009-0008-9059-0513"
+  },
+  "code_license": "MIT",
+  "annotation_license": "CC-BY-4.0",
+  "release_scope": "project-held rights only",
+  "data_manifest_sha256": "973bd4741e0cbc5182232bcade24212d9471ce7ae0e7b4ed8054a2fcfa5468e4",
+  "independent_gate_included": false,
+  "historical_snapshot_fields": {
+    "data/manifest.json:release_status": "Retained status at creation of the source snapshot; not current license status.",
+    "data/REVIEW_COVERAGE.json:public_release_approval": "Retained earlier preparation status; current scoped permission is in PACKAGE_MANIFEST.json and LICENSE."
+  },
+  "scope": "Complete core dataset and new-component scoring interface; historical experiment replay assets and supplementary paper documents are excluded."
+}

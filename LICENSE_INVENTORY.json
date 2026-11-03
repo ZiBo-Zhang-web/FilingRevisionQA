@@ -1,0 +1,120 @@
+{
+  "checked_date": "2026-11-03",
+  "release_status": "scoped_licenses_adopted",
+  "author_owned_licenses_adopted": true,
+  "materials": [
+    {
+      "name": "FilingRevisionQA question and annotation layer",
+      "included": "sanitized 468-pair projection and structural provenance",
+      "license": "CC-BY-4.0 for project-held original contributions only",
+      "action": "Read RIGHTS_SCOPE.md; no new restriction on facts or blanket third-party grant."
+    },
+    {
+      "name": "FilingRevisionQA loader, scorer and packaging code",
+      "included": true,
+      "license": "MIT for project-owned software",
+      "action": "Retain license and notices."
+    },
+    {
+      "name": "SEC-hosted issuer filings",
+      "included": "official URLs/hashes, structured facts and locators; no full filings",
+      "license": "no_blanket_relicensing_asserted",
+      "primary_source": "https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data",
+      "action": "Retain source URLs/hashes and THIRD_PARTY_NOTICES; full source bodies excluded."
+    },
+    {
+      "name": "FinQA",
+      "included": false,
+      "role": "External A1 calibration dataset/evaluator; not part of the new 468-pair resource",
+      "revision": "0f16e2867befa6840783e58be38c9efb9229d742",
+      "license": "MIT repository license; underlying issuer content retains separate rights",
+      "primary_source": "https://github.com/czyssrs/FinQA/blob/main/LICENSE",
+      "action": "Fetch the pinned upstream artifact; retain its copyright/license notice in any authorized redistribution"
+    },
+    {
+      "name": "FinRank",
+      "included": false,
+      "revision": "916dc27e77b90e294ea1b3a2cc5b0abcf07392d1",
+      "license": "CC-BY-NC-4.0",
+      "primary_source": "https://github.com/datanxt/FinRank/blob/main/LICENSE",
+      "action": "Separate external calibration; no FinRank records are mirrored or relicensed in this package"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B-Instruct",
+      "included": false,
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "license": "Apache-2.0",
+      "primary_source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "verification_basis": "Official model card; fixed revision is supplied by accepted experiment provenance",
+      "action": "Fetch separately at the recorded revision; preserve upstream terms and notices"
+    },
+    {
+      "name": "Qwen/Qwen2.5-Coder-7B-Instruct",
+      "included": false,
+      "revision": "c03e6d358207e414f1eca0bb1891e29f1db0e242",
+      "license": "Apache-2.0",
+      "primary_source": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/blob/c03e6d358207e414f1eca0bb1891e29f1db0e242/LICENSE",
+      "action": "Base model and experimental adapters are outside this dataset package; adapter release requires its own manifest and notice review"
+    },
+    {
+      "name": "microsoft/Phi-3.5-mini-instruct",
+      "included": false,
+      "revision": "2fe192450127e6a83f7441aef6e3ca586c338b77",
+      "license": "MIT",
+      "primary_source": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct/blob/2fe192450127e6a83f7441aef6e3ca586c338b77/LICENSE",
+      "action": "Fetch separately at the recorded revision; retain upstream license and notice"
+    },
+    {
+      "name": "sentence-transformers/all-mpnet-base-v2",
+      "included": false,
+      "license": "Apache-2.0",
+      "primary_source": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+      "revision_source": "Exact revisions remain in each historical experiment model manifest; do not substitute latest weights",
+      "action": "External model dependency only"
+    },
+    {
+      "name": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "included": false,
+      "license": "Apache-2.0",
+      "primary_source": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
+      "revision_source": "Exact revisions remain in each historical experiment model manifest; do not substitute latest weights",
+      "action": "External model dependency only"
+    },
+    {
+      "name": "HoH dataset and VersionRAG code/data",
+      "included": false,
+      "license": "not_licensed_by_this_package",
+      "action": "Do not mirror or vendor based on citation or public visibility alone"
+    },
+    {
+      "name": "Raw reviewer workbooks and identities",
+      "included": false,
+      "license": "private_review_records",
+      "action": "Remain internal; sanitized aggregate counts and existing categorical outcomes only"
+    },
+    {
+      "name": "Retained rules_bound 144-state dev replay",
+      "included": false,
+      "license": "not_distributed_in_this_package",
+      "action": "Not distributed in this core. Historical artifacts remain preserved internally; no reference results have been deleted."
+    }
+  ],
+  "runtime": {
+    "reader_and_scorer": "Python 3.10+ standard library only",
+    "builder": "lxml for hash-verified original XBRL context/unit serialization; no library binaries redistributed",
+    "downloader": "Bundled exact project-owned centralized SecClient; no external package dependencies; default dry-run, opt-in HTTPS official SEC hosts at 2 requests/second",
+    "model_environment": "External; original accepted runs retain exact dependency/model hashes"
+  },
+  "approved_scope": {
+    "software": "MIT for project-held rights",
+    "original_question_annotation_contributions": "CC-BY-4.0 for project-held rights",
+    "source_material": "excluded from these grants",
+    "scope_document": "RIGHTS_SCOPE.md"
+  },
+  "repository_url": "https://github.com/ZiBo-Zhang-web/FilingRevisionQA",
+  "inventory_scope": "Included materials and separately identified historical experiment dependencies; model weights and external datasets are not distributed.",
+  "license_text_links": {
+    "MIT": "https://opensource.org/license/mit",
+    "CC_BY_4_0": "https://creativecommons.org/licenses/by/4.0/"
+  }
+}

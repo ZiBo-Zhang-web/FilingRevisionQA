@@ -1,0 +1,162 @@
+{
+  "package_version": "v1.0.0",
+  "data_manifest_sha256": "973bd4741e0cbc5182232bcade24212d9471ce7ae0e7b4ed8054a2fcfa5468e4",
+  "requirements": "Python standard library only; no pip installation or external checkout",
+  "provenance_note": "Source paths identify retained historical project artifacts. Targets are files distributed here; hashes identify their exact bytes. The research archive retains the full import history.",
+  "copies": [
+    {
+      "source": "release/resource_20261027/data/AUTHORITY.json",
+      "target": "data/AUTHORITY.json",
+      "sha256": "4c47d559106561f752131571a0636c871e327ee45da379b9a6b1738e2d64ea60",
+      "bytes": 3665,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/manifest.json",
+      "target": "data/manifest.json",
+      "sha256": "973bd4741e0cbc5182232bcade24212d9471ce7ae0e7b4ed8054a2fcfa5468e4",
+      "bytes": 3317,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/offline_references/dev.jsonl",
+      "target": "data/offline_references/dev.jsonl",
+      "sha256": "fe1a0aa2fd185e0c113c43119442c1133c3e6e2e35ea34782d6224e33cb70d58",
+      "bytes": 338379,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/offline_references/events.jsonl",
+      "target": "data/offline_references/events.jsonl",
+      "sha256": "f97977912a36c5363057ddac5f0b7a34dab282afd015fc21fb5f423ceb815b52",
+      "bytes": 52478,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/offline_references/test.jsonl",
+      "target": "data/offline_references/test.jsonl",
+      "sha256": "81b4663981f2c583c2643ed42a498fce64dafabb64c846c7bee6631370c775a9",
+      "bytes": 451787,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/offline_references/train.jsonl",
+      "target": "data/offline_references/train.jsonl",
+      "sha256": "270c88649d9296beb09c9788a44cc99e1e7c83f68fb27170a11560e9d9a1661b",
+      "bytes": 1189216,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/offline_references/xbrl_target_contexts.jsonl",
+      "target": "data/offline_references/xbrl_target_contexts.jsonl",
+      "sha256": "83fcdccbaf0646dfc35b988f24d7ce781f7118b5052bd6cd662a677908335a25",
+      "bytes": 2731759,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/public/dev.jsonl",
+      "target": "data/public/dev.jsonl",
+      "sha256": "babe60d32582a707cfe08d9acec215a2ec1dccac4db8cd580f312a92e9c2f2e3",
+      "bytes": 83576,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/public/filings.jsonl",
+      "target": "data/public/filings.jsonl",
+      "sha256": "bd3468b2012404f2c787db7e33663e89d7d2ada07dfdfefd877ba70007e13a81",
+      "bytes": 125186,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/public/retrieval_corpus_documents.jsonl",
+      "target": "data/public/retrieval_corpus_documents.jsonl",
+      "sha256": "48fc81d0f2c7d7ce48ff20e89d170c5b203871d0a32296c4a37e87b56c4f6699",
+      "bytes": 103998,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/public/test.jsonl",
+      "target": "data/public/test.jsonl",
+      "sha256": "f0295e119727233d623065c1c2ac4e250261c6f63eb5bfb90d13b7a912596995",
+      "bytes": 125231,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/public/train.jsonl",
+      "target": "data/public/train.jsonl",
+      "sha256": "fbb280c19fd9b957378313dadf337c2c5f1ec133b428145ebb98d86c332ea487",
+      "bytes": 346493,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/REVIEW_COVERAGE.json",
+      "target": "data/REVIEW_COVERAGE.json",
+      "sha256": "ec55f59d8c38a0d35b53be64403ba552fbe5bbf9358a63d5a45ffb748b6d42a1",
+      "bytes": 1673,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/sources.jsonl",
+      "target": "data/sources.jsonl",
+      "sha256": "38fa28ac6f5d9673d6782f407ed618459caef1321741234b4d94838c4f770983",
+      "bytes": 284414,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/data/split_membership.jsonl",
+      "target": "data/split_membership.jsonl",
+      "sha256": "8d091125d2d2ebd5609945c0eaea95c8fd866ecad1693a51b6a6da014e1715bd",
+      "bytes": 70274,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/frqa_resource.py",
+      "target": "frqa_resource.py",
+      "sha256": "89934248c7183f50274da48ec3be9f42a5a20fc284c19cbe9325481edc01314d",
+      "bytes": 6641,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/score.py",
+      "target": "score.py",
+      "sha256": "df78df369f9b65669994d3432874344cc42a64fd47d58fbfa7be5451ebfc427a",
+      "bytes": 14123,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/score_profiles.py",
+      "target": "score_profiles.py",
+      "sha256": "7494c41036e485ca1041b3abd7fad76e5450604156b2da4cb834fa53c5281705",
+      "bytes": 9595,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/test_resource.py",
+      "target": "test_resource.py",
+      "sha256": "5a96523056e99bf577670d80011160a775c847eda4b5c4b0f47872b364c02f24",
+      "bytes": 9816,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/test_score_profiles.py",
+      "target": "test_score_profiles.py",
+      "sha256": "f5b027b3e4459b8ea5787c2048c8e2cd439736ccbce9709acb665a09134124b7",
+      "bytes": 6317,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "release/resource_20261027/.gitattributes",
+      "target": ".gitattributes",
+      "sha256": "60ee2aa0a7f4d8cb65bd0e7c22d7dccb7acb31276352bae9d6b64b1587a32985",
+      "bytes": 99,
+      "copied_bytes_identical": true
+    },
+    {
+      "source": "data_pipeline/sec_client.py",
+      "target": "frqa_sec_client.py",
+      "sha256": "368d746af7b1117a211b4b75f05d8beed054cd5bfa6f8cc212caffcb154524ad",
+      "bytes": 7153,
+      "copied_bytes_identical": true
+    }
+  ]
+}
